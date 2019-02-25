@@ -5,19 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-<img id="bong" style="width:128px;height:128px" src="https://i0.wp.com/sterlingathletics.com/wp-content/uploads/2015/10/Traditional-Hand-Sewn-Soccer-Ball.png?fit=900%2C900&ssl=1">
+<img id="bong" style="width:150px;height:150px" src="https://i0.wp.com/sterlingathletics.com/wp-content/uploads/2015/10/Traditional-Hand-Sewn-Soccer-Ball.png?fit=900%2C900&ssl=1">
 <p> Click to move the ball to the right</p>
 <button onclick=bien()> Click here </button>
 <script>
     let img = null;
     img = document.getElementById("bong");
     function init() {
-        img = document.getElementById('myImage');
+        img = document.getElementById('bong');
         img.style.position = 'relative';
         img.style.left = '0px';
     }
     function bien() {
-        img.style.left = parseInt(img.style.left) + 10 + 'px';
+        img.style.left = parseInt(img.style.left) + 100 + 'px';
     }
     window.onload = init();
 </script>
